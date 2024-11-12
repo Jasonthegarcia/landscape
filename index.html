@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Leo's Landscape</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <a href="#"><img src="images/logo1x.png" width="50" alt="site logo" srcsset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x"></a>
+        <span> Leo's Landscape</span>
+        <a href="tel:801-123-4567" class="phone">
+            <i class="fas fa-phone-alt"></i>
+            <span>801-123-4567</span>
+        </a>
+        <button id="theButton"></button>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav>
+        <ul id="theNav">
+            <li><a href="#">Home</a></li>
+            <li class="parent"><a href="#">Services</a>
+            <ul>
+                <li><a href="#">Paving</a></li>
+                <li><a href="#">Planting</a></li>
+                <li><a href="#">Lawn Mowing</a></li>
+            </ul>
+            </li>
+            <li class="active"><a href="#">Clients</a></li>
+            <li class="parent"><a href="#">Our Team</a>
+            <ul>
+                <li><a href="#">Peter</a></li>
+                <li><a href="#">Paul</a></li>
+                <li><a href="#">Mary</a></li>
+            </ul>
+        </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="images/landscaping-1.jpeg" alt="Slider 1"></div>
+      <div class="swiper-slide"><img src="images/landscaping-2.jpg" alt="Slider 2"></div>
+      <div class="swiper-slide"><img src="images/landscaping-3.jpg" alt="Slider 3"></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    
+  </div>
+  <h1>Services</h1>
+  <div class="cards">
+    <section>
+        <h2>Paving</h2>
+            <img src="images/paving.webp" width="400" height="250" alt="paving">
+            <img class="overlay" src="images/hill.png" width="400" height="25" alt="mask">
+    </section>
+
+    <section>
+        <h2>Planting</h2>
+            <img src="images/planting.webp" width="400" height="250" alt="planting">
+            <img class="overlay" src="images/flower-edge.png" width="400" height="25" alt="mask">
+    </section>
+
+    <section>
+        <h2>Digging</h2>
+            <img src="images/pond.webp" width="400" height="250" alt="pond">
+            <img class="overlay" src="images/water.png" width="400" height="25" alt="mask">
+    </section>
+
+    <section>
+        <h2>Installing</h2>
+            <img src="images/stone.webp" width="400" height="250" alt="stone">
+            <img class="overlay" src="images/rock-edge.png" width="400" height="25" alt="mask">
+
+    </section>
+</div>
+  <h1>Customers Say</h1>
+  <div class="parent">
+    <section>
+        <img src="images/customer-1.jpg" width="200" height="200" alt="Customer One">
+        <p>"My front yard has never looked better! In just two days, they managed to level my yard and put in a garden!"</p>
+    </section>
+    <section>
+        <img src="images/customer-2.jpg" width="200" height="200" alt="Customer One">
+        <p>"I can't thank Leo's Landscape enough! They managed to install a patio in my uneven backyard and make it look beatiful!"</p>
+    </section>
+  </div>
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p>Copyright &copy; 2024 Jason Garcia All rights reserved. 
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Clients</a></p>
+    </footer>
+</div> <!-- end footer wrapper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="js/scripts.js"></script>
+</body>
+</html> 
